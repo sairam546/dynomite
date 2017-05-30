@@ -18,7 +18,7 @@
 #include "dyn_signal.h"
 #include "dyn_dnode_peer.h"
 
-#define TEST_CONF_PATH                 "conf/dynomite.yml"
+#define TEST_CONF_PATH                 "/etc/dynomitedb/dynomite.yaml"
 
 #define TEST_LOG_DEFAULT               LOG_PVERB
 #define TEST_LOG_PATH                  NULL

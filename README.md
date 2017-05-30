@@ -51,7 +51,7 @@ To build Dynomite in _debug mode_:
       -D, --describe-stats    : print stats description and exit
       -v, --verbosity=N       : set logging level (default: 5, min: 0, max: 11)
       -o, --output=S          : set logging file (default: stderr)
-      -c, --conf-file=S       : set configuration file (default: conf/dynomite.yml)
+      -c, --conf-file=S       : set configuration file (default: /etc/dynomitedb/dynomite.yaml)
       -p, --pid-file=S        : set pid file (default: off)
       -x, --admin-operation=N : set size of admin operation (default: 0)
 
@@ -83,7 +83,7 @@ Dynomite can be configured through a YAML file specified by the -c or --conf-fil
 + **mbuf_size**: size of mbuf chunk in bytes (default: 16384 bytes).
 + **max_msgs**: max number of messages to allocate (default: 200000).
 
-For example, the configuration file in [conf/dynomite.yml](conf/dynomite.yml)
+For example, the configuration file in [/etc/dynomitedb/dynomite.yaml](/etc/dynomitedb/dynomite.yaml)
 
 Finally, to make writing syntactically correct configuration files easier, dynomite provides a command-line argument -t or --test-conf that can be used to test the YAML configuration file for any syntax error.
 

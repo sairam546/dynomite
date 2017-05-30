@@ -35,7 +35,7 @@
 #include "dyn_signal.h"
 #include "dyn_asciilogo.h"
 
-#define DN_CONF_PATH        "conf/dynomite.yml"
+#define DN_CONF_PATH        "/etc/dynomitedb/dynomite.yaml"
 
 #define DN_LOG_DEFAULT      LOG_NOTICE
 #define DN_LOG_MIN          LOG_EMERG

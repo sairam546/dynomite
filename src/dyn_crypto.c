@@ -172,7 +172,7 @@ crypto_init_for_test()
     THROW_STATUS(aes_init());
 
     //init RSA
-    struct string pem_file = string("conf/dynomite.pem");
+    struct string pem_file = string("/etc/dynomitedb/dynomite.pem");
     THROW_STATUS(load_private_rsa_key_by_file(&pem_file));
 
     return DN_OK;

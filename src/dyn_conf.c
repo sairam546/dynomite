@@ -103,9 +103,9 @@ static hash_t hash_algos[] = {
 #define CONF_DEFAULT_STATS_PORT              22222
 #define CONF_DEFAULT_STATS_INTERVAL_MS       (30 * 1000) /* in msec */
 
-#define PEM_KEY_FILE                         "conf/dynomite.pem"
-#define RECON_KEY_FILE                       "conf/recon_key.pem"
-#define RECON_IV_FILE                        "conf/recon_iv.pem"
+#define PEM_KEY_FILE                         "/etc/dynomitedb/dynomite.pem"
+#define RECON_KEY_FILE                       "/etc/dynomitedb/recon_key.pem"
+#define RECON_IV_FILE                        "/etc/dynomitedb/recon_iv.pem"
 
 data_store_t g_data_store = CONF_DEFAULT_DATASTORE;
 struct command {
