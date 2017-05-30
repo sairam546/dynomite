@@ -94,7 +94,7 @@ static struct string dist_strings[] = {
 
 #define CONF_DEFAULT_SEED_PROVIDER           "simple_provider"
 
-#define PEM_KEY_FILE      "conf/dynomite.pem"
+#define PEM_KEY_FILE      "/etc/dynomitedb/dynomite.pem"
 #define RECON_KEY_FILE    "conf/recon_key.pem"
 #define RECON_IV_FILE     "conf/recon_iv.pem"
 

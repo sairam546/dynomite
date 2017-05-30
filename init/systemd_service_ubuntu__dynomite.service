@@ -7,7 +7,7 @@ Documentation=man:dynomite(8)
 [Service]
 User=dynomite
 ; Default environment variable values
-Environment=DYNOMITE_CONF=/etc/dynomite/dynomite.yaml
+Environment=DYNOMITE_CONF=/etc/dynomitedb/dynomite.yaml
 Type=forking
 ; Environment vars to customize startup 
 EnvironmentFile=-/etc/default/dynomite

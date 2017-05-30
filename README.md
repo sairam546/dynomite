@@ -50,7 +50,7 @@ To build Dynomite in _debug mode_:
       -D, --describe-stats   : print stats description and exit
       -v, --verbosity=N      : set logging level (default: 5, min: 0, max: 11)
       -o, --output=S         : set logging file (default: stderr)
-      -c, --conf-file=S      : set configuration file (default: conf/dynomite.yml)
+      -c, --conf-file=S      : set configuration file (default: /etc/dynomitedb/dynomite.yaml)
       -s, --stats-port=N     : set stats monitoring port (default: 22222)
       -a, --stats-addr=S     : set stats monitoring ip (default: 0.0.0.0)
       -i, --stats-interval=N : set stats aggregation interval in msec (default: 30000 msec)
@@ -82,7 +82,7 @@ Dynomite can be configured through a YAML file specified by the -c or --conf-fil
 + **servers**: A list of local server address, port and weight (name:port:weight or ip:port:weight) for this server pool. Usually there is just one.
 + **secure_server_option**: Encrypted communication. Must be one of 'none', 'rack', 'datacenter', or 'all'.
 
-For example, the configuration file in [conf/dynomite.yml](conf/dynomite.yml)
+For example, the configuration file in [/etc/dynomitedb/dynomite.yaml](/etc/dynomitedb/dynomite.yaml)
 
 Finally, to make writing syntactically correct configuration files easier, dynomite provides a command-line argument -t or --test-conf that can be used to test the YAML configuration file for any syntax error.
 

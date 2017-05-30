@@ -12,5 +12,5 @@ dyn_o_mite:
   - 127.0.0.1:22125:1
   tokens: '12345678'
   secure_server_option: datacenter
-  pem_key_file: conf/dynomite.pem
+  pem_key_file: /etc/dynomitedb/dynomite.pem
   data_store: 0

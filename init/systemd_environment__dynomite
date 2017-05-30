@@ -1,1 +1,1 @@
-DYNOMITE_CONF=/etc/dynomite/dynomite.yml
+DYNOMITE_CONF=/etc/dynomitedb/dynomite.yml

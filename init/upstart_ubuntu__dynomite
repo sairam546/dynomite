@@ -16,7 +16,7 @@ NAME=dynomite
 DESC="distributed dynamo layer"
 PATH=/sbin:/usr/sbin:/usr/local/sbin:/bin:/usr/bin
 PIDFILE=/var/run/${NAME}.pid
-CONFIG=/etc/dynomite/${NAME}.yml
+CONFIG=/etc/dynomitedb/${NAME}.yml
 INIT_OPTIONS=/etc/default/${NAME}
 # RHEL specific file
 #SYSTEM_CONFIG=/etc/sysconfig/${NAME}
